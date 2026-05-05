@@ -1,44 +1,51 @@
-# Shadowfox AIML
+# 🧠 Flask Image Classifier
 
-A simple **Flask + PyTorch** based project for image classification.  
-This project allows you to upload an image and get predictions using a pre-trained deep learning model.
+A Flask + PyTorch based web application for image classification using a pre-trained deep learning model.
+
+This project allows users to upload an image and receive ImageNet-based predictions through a simple and lightweight web interface.
 
 ---
 
 ## 🚀 Features
-- Web interface with Flask
-- PyTorch-based image classification
-- Supports ImageNet class predictions
-- Easy to run locally
+
+- Flask web application
+- PyTorch deep learning integration
+- Image upload support
+- ImageNet class predictions
+- Simple and clean UI
+- Easy local deployment
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Flask
+- PyTorch
+- Torchvision
+- HTML
+- CSS
 
 ---
 
 ## 📦 Installation
 
-    1. Clone the repository:
-       ```bash
-       git clone https://github.com/Prathamesht14/shadowfox-aiml.git
-       cd shadowfox-aiml
-    2. Create and activate a virtual environment:
+### 1. Clone the Repository
 
-      ```bash
-      python -m venv venv
-      .\venv\Scripts\activate   # On Windows
-      # or
-      source venv/bin/activate  # On Linux/Mac
-
-  Install the required dependencies:
-    pip install -r requirements.txt
-
-  Run the Flask server:
-    python server.py
-
----
-
-## 🎥 Demo
-
-Once the server is running, open:  
-👉 [http://127.0.0.1:5000](http://127.0.0.1:5000)
+```bash
+git clone https://github.com/Prathamesht14/flask-image-classifier.git
+cd flask-image-classifier
+2. Create a Virtual Environment
+python -m venv venv
+3. Activate the Virtual Environment
+Windows
+.\venv\Scripts\activate
+Linux / macOS
+source venv/bin/activate
+4. Install Dependencies
+pip install -r requirements.txt
+5. Run the Flask Server
+python server.py
 
 ---
 
